@@ -107,8 +107,8 @@ pip install numpy pandas scikit-learn
 ```
 - Note that the included Jupyter notebook file was exported directly from Kaggle and may have some formatting issues. You can:
 
-- - Open the Mine_Rock_Prediction.ipynb file and fix any corrupted cells manually
-- - Or follow the code steps sequentially as shown in the repository
+    - Open the Mine_Rock_Prediction.ipynb file and fix any corrupted cells manually
+    - Or follow the code steps sequentially as shown in the repository
 
 - To make predictions, use the example code provided in the README:
 ```python
