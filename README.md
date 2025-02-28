@@ -11,30 +11,29 @@ The dataset used in this project is the Sonar dataset, which contains:
 Each attribute represents the energy within a particular frequency band
 Each data point is labeled as either a rock (R) or a mine (M)
 
-<h1>Model Development Process</h1>
+<h2>Model Development Process</h2>
 
-<h2>Data Preprocessing<h1>
+**Data Preprocessing**
 
 Data loading and inspection
 Feature and target separation
 Training and testing data split (90/10 ratio)
 
-Model Selection
+**Model Selection**
+
 The project evaluates and compares multiple classification algorithms:
 
-Logistic Regression
-Support Vector Machine (with linear kernel)
-Decision Tree Classifier
-Random Forest Classifier
-K-Nearest Neighbors
+- Logistic Regression
 
-Model Training
+**Model Training**
+
 Each model is trained using the training dataset with the default hyperparameters.
-Model Evaluation
-Models are evaluated using:
 
+**Model Evaluation**
+
+Models are evaluated using:
 Accuracy score on both training and test datasets
 Comparison of performance across all models
 
 Final Model Selection
-The Support Vector Machine (SVM) classifier was selected as the final model due to its superior performance on the test dataset.
+The Logistic regression was selected as the final model due to its superior performance on the test dataset.
