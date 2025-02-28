@@ -14,26 +14,28 @@ Each data point is labeled as either a rock (R) or a mine (M)
 <h2>Model Development Process</h2>
 
 **Data Preprocessing**
-
 Data loading and inspection
 Feature and target separation
 Training and testing data split (90/10 ratio)
 
 **Model Selection**
-
 The project evaluates and compares multiple classification algorithms:
 
 - Logistic Regression
 
 **Model Training**
-
 Each model is trained using the training dataset with the default hyperparameters.
 
 **Model Evaluation**
-
 Models are evaluated using:
 Accuracy score on both training and test datasets
 Comparison of performance across all models
 
-Final Model Selection
+**Final Model Selection**
 The Logistic regression was selected as the final model due to its superior performance on the test dataset.
+
+<h2>Performance Results:</h2>
+
+|  Model   | Training Accuracy |  Test Accuracy |
+|----------|-------------------|----------------|
+|Logistic Regression| 83.422%  |       76.19%   |
