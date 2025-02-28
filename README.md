@@ -10,6 +10,7 @@ The dataset used in this project is the Sonar dataset, which contains:
 208 data points with 60 attributes each
 Each attribute represents the energy within a particular frequency band
 Each data point is labeled as either a rock (R) or a mine (M)
+Dataset Link: [sonar mine dataset](https://www.kaggle.com/datasets/mayurdalvi/sonar-mine-dataset)
 
 <h2>Model Development Process</h2>
 
@@ -89,7 +90,7 @@ The project requires the following Python libraries:
 This project was originally developed on Kaggle, which provides the necessary environment to run the code with all dependencies pre-installed.
 
 **Option 1: Run on Kaggle (Recommended)**
-- Visit the original notebook on Kaggle (add your Kaggle notebook link here)
+- Visit the original notebook on Kaggle ([Mine Rock Prediction](https://www.kaggle.com/code/isfarnayen/mine-rock-prediction))
 - Fork the notebook to your Kaggle account
 - Run all cells to see the model development process
 - Use the prediction section to test with your own sonar data
