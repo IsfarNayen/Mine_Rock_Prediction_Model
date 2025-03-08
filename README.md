@@ -111,9 +111,13 @@ pip install numpy pandas scikit-learn
     - Open the Mine_Rock_Prediction.ipynb file and fix any corrupted cells manually
     - Or follow the code steps sequentially as shown in the repository
 
-- To make predictions, use the example code provided in the README:
+- To make predictions and find accuracy of the model, use the example code provided in the README:
 ```python
-# Copy the input data processing and prediction code from above
+model = LogisticRegression()
+model.fit(X_train , Y_train)
+Prediction = model.predict(X_train)
+Accuracy_check = accuracy_score(Prediction , Y_train)
+print("Accuracy on training data is:" , Accuracy_check * 100 ,"%")
 ```
 **Example Input Data**
 The model requires 60 sonar readings as comma-separated values. Here's an example of how the input should be formatted:
